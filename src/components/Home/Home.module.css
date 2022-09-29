@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    flex: 1 1 0px;
+    margin: 0.3rem;
+}
+
+.container>* {
+    padding: 1rem;
+    width: 50%;
+    margin: 0.3rem
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container>* {
+        width: 90%;
+        margin-bottom: 0.3rem;
+    }
+}

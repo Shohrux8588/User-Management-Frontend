@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container input {
+    display: block;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    width: 15rem;
+    border: none;
+    padding: 0.5rem;
+}
+
+.container label {
+    display: block;
+    margin-bottom: 0.2rem;
+}
+
+.container form button {
+    margin: auto;
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: .5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: #7858A6;
+    font-weight: 700;
+}
+
+.error {
+    color: red;
+}
